@@ -23,5 +23,19 @@ int main()
 }
 void ataques(float distancia,float Ho,float Hd,float an,float vel){
     float x1,y1,x2,y2,x3,y3; //  (x1,y1) tanque1  , (x2,y2) tanque2  , (x3, y3) donde deben estar las balas
+    float t,t2;             // t = tiempo total que demora el proyectil   t2 
+    x2=distancia;
+    if(Ho>Hd)y2=0;
+    else if(Ho<Hd)y2=Hd-Ho;
+    else y2=0;
+    x1=0;
+    if(Ho>Hd)y1=Ho-Hd;
+    else if(Ho<Hd)y1=0;
+    else y1=0;
+    // ecuaciones de la bala oponente
+    t=x2/vel*cos(an);
+    cout<<"el cañon impactaria a el otro e"
+    
+    
 
 }
