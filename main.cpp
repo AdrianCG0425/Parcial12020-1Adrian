@@ -37,7 +37,8 @@ void ataques(float distancia,float Ho,float Hd,float an,float vel){
     // ecuaciones de la bala oponente
     t=x2/vel*cos(an);
     t2=t-2.5;
-
+    //haciendo que la bala choque en el punto mas alto y3=0
+    y3=x1+vel*sin(an)*t -4.9*t*t;
 
 
 }
